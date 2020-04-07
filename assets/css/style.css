@@ -9,7 +9,8 @@
 body {
     background-color: #d9dcd6;
 }
-/* This stylyes the blue bar and links on top */
+
+/* This styles the blue bar and links on top */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* this changes the font size and display type for the header and h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this changes the color of the text for the header, h1 and seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* this changes the spacing and layout of header class and divs */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* this means there is no list type for the links on the top of the page */
 .header div ul {
     list-style-type: none;
 }
 
+/* this changes the margin on the header class, divs, unordered lists, and list items */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* this colors all the contents of an a attribute, and assigns no text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this changes the font size to 16 for all content with a p tag */
 p {
     font-size: 16px;
 }
 
+/* this acts as the background image that first appears on the screen. it also sets the size of the image as well as margin. */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* this changes the float of any objects with the float-left class. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* this changes the float of any objects with the float-right class. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* this changes the display characteristics of anything with the content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* this changes the display characteristics of anything with the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* this changes the margin and color of the text for the lead generation on the right side. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this changes the margin and color of the text for the brand awareness on the right side. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this changes the margin and color of the text for the cost management on the right side. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* this styles the heading for the lead generation header */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles the heading for the brand awareness heading */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles the heading for the cost management heading */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* this styles the lead generation icon */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this styles the brand awareness icon */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this styles the cost managmenet icon */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* this styles the blue box around the search engine optimazation section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -145,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* this styles the blue box around the online reputation management section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -154,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* this styles the blue box around the social media marketing section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,41 +187,46 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* this sets the max height for the search engine optimazation image */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* this sets the max height for the online reputation management image */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* this sets the max height for the social media marketing image */
 .social-media-marketing img {
     max-height: 200px;
-}
 
+}
+/* this styles the font size and margin for the search engine optimization header */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* this styles the font size and margin for the online reputation management header */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* this styles the font size and margin for the social media marketing header */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this styles the footeron the bottom of the page */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* this changes the size of the font in the footer. */
 .footer h2 {
     font-size: 20px;
 }
