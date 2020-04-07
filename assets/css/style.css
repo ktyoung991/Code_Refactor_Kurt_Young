@@ -1,13 +1,15 @@
+/* This is styling for the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This colors the background */
 body {
     background-color: #d9dcd6;
 }
-
+/* This stylyes the blue bar and links on top */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
